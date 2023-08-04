@@ -1,0 +1,93 @@
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #2dcc9c;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  gap: 14px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #cc370e;
+}
+
+a {
+  text-decoration: none;
+  color: #cc370e;
+}
+
+.left-header {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.landing {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 28px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  background-color: #cdc218;
+  padding: 20px;
+}
+
+img {
+  width: 400px;
+  border: black solid 2px;
+  border-radius: 5%;
+}
+
+.left-landing p,
+.left-landing button {
+  font-size: 18px;
+}
+
+.left-landing button {
+  padding: 4px;
+  border-radius: 6px;
+  color: #4204cc;
+}
+
+.middle-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #cc370e;
+  padding: 20px;
+}
+
+.middle-section h2 {
+  font-size: 36px;
+  font-weight: bolder;
+}
+.illustration {
+  border: #cc370e solid 2px;
+  width: 100px;
+  height: 100px;
+  border-radius: 10%;
+}
+.boxes {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+.testemonial {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background-color: #4204cc;
+  color: whitesmoke;
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+}
