@@ -53,9 +53,10 @@ img {
 }
 
 .left-landing button {
-  padding: 4px;
+  padding: 6px;
   border-radius: 6px;
-  color: #4204cc;
+  color: #cdc218;
+  background-color: #cc370e;
 }
 
 .middle-section {
@@ -82,6 +83,7 @@ img {
   gap: 24px;
 }
 .testemonial {
+  margin-top: 20px;
   display: flex;
   flex-direction: column;
   padding: 20px;
@@ -90,4 +92,19 @@ img {
   font-size: 36px;
   font-weight: lighter;
   font-style: italic;
+}
+.call-to-action {
+  display: flex;
+}
+.card {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+.card-button {
+  flex-basis: 200px;
+  padding: 12px;
+  border-radius: 6px;
 }
