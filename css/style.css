@@ -83,8 +83,18 @@ img {
 .boxes {
   display: flex;
   justify-content: center;
-  gap: 24px;
+  flex-wrap: wrap;
+  gap: 4rem;
 }
+
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 10rem;
+}
+
 .testemonial {
   margin-top: 20px;
   display: flex;
