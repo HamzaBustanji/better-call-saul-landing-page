@@ -32,13 +32,12 @@ a {
 }
 
 .landing {
+  border-radius: 15px;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
   gap: 2rem;
-  padding-top: 14px;
-  padding-bottom: 14px;
   background-color: #cdc218;
   padding: 20px;
 }
@@ -96,6 +95,7 @@ img {
 }
 
 .testemonial {
+  border-radius: 15px;
   margin-top: 20px;
   display: flex;
   flex-direction: column;
@@ -110,14 +110,22 @@ img {
   display: flex;
 }
 .card {
+  border-radius: 15px;
   margin-top: 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 20px;
+  background-color: whitesmoke;
 }
 .card-button {
   flex-basis: 200px;
   padding: 12px;
   border-radius: 6px;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
 }
